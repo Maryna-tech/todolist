@@ -1,0 +1,70 @@
+body{
+  background-image: url("cut_list.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed ;
+}
+
+.App{
+  background-color:aliceblue;
+  min-height: 95vh;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.crossed{
+  text-decoration: line-through 3px brown;
+  background-color: #f0f0f0;
+}
+
+
+ul,li{
+  list-style-type: none;
+  padding: 8px;
+  background-color:none;
+  margin:none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+  }
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-add {
+  background: plum;
+  margin-top: 3px;
+}
+
+.btn-delete {
+  background: blue;
+  margin-top: 3px;
+}
+
+button{
+  padding: 8px;
+  border-radius: 8cm;
+  width: 40%;
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input{
+  flex: 1;
+  padding: 8px;
+  margin: 7px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  }
+
+img{
+  border-radius: 50%;
+}
